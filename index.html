@@ -24,7 +24,6 @@
     }
   </style>
   <script>
-    // passive: false is required, or iOS ignores preventDefault() and still rubber-bands the page.
     document.addEventListener('touchmove', (e) => e.preventDefault(), { passive: false });
   </script>
 </head>
